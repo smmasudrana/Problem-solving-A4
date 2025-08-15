@@ -15,6 +15,6 @@ function  isSame(arr1 , arr2 ) {
     return true;
 }
 
-const bal = isSame([1, 2, 3] , [1 , 2 , 3]);
-console.log(bal);
+const output = isSame([1, 2, 3] , [1 , 2 , 3]);
+console.log(output);
 

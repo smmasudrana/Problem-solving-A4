@@ -1,13 +1,11 @@
 function onlyCharacter(str) {
     if (typeof str !== 'string') {
-        return 'Invalid';
+        return "Invalid";
     }
-    str = str.replace(/ /g, '');
-    str = str.toUpperCase();
-    return str;
+    let result = str.split(' ').join('').toUpperCase();
+    return result;
 }
 
-const output = onlyCharacter("  h e llo wor   ld" );
+const output = onlyCharacter("  h e llo wor   ld");
 console.log(output);
-
 
